@@ -1,0 +1,16 @@
+string $ : True
+string a : True
+string aab : True
+string ab : True
+string aabb : True
+string aaaa : True
+string aaabbb : True
+string aaaaaaab : True
+
+string b : False
+string abbb : False
+string aaaabbbbbbbb : False
+string abba : False
+string abbabbababa : False
+string bba : False
+string aaaacbbb : False

@@ -1,0 +1,17 @@
+string aa : True
+string bb : True
+string aaa : True
+string bbb : True
+string aba : True
+string bab : True
+string abababbaba : True
+string bababbabab : True
+
+string $ : False
+string a : False
+string b : False
+string ab : False
+string ba : False
+string abababab : False
+string bababbaba : False
+string cababababc : False

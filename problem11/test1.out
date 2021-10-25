@@ -1,0 +1,72 @@
+Derivations for string "aab" are:
+S->AB->aB->aAB->aaB->aab 0.09
+S->AB->AAB->aAB->aaB->aab 0.036
+
+Derivations for string "abab" are:
+S->AB->ABB->aBB->abB->abAB->abaB->abab 0.009
+S->AB->AAB->ABAB->aBAB->abAB->abaB->abab 0.0036
+
+Derivations for string "abb" are:
+S->AB->ABB->aBB->abB->abb 0.03
+
+Derivations for string "aaa" are:
+Not in the language
+
+Derivations for string "bbb" are:
+Not in the language
+
+Derivations for string "aba" are:
+Not in the language
+
+Derivations for string "bababbbabab" are:
+Not in the language
+
+Derivations for string "abbab" are:
+S->AB->ABB->ABBB->aBBB->abBB->abbB->abbAB->abbaB->abbab 0.0009
+S->AB->AAB->ABAB->ABBAB->aBBAB->abBAB->abbAB->abbaB->abbab 0.00036
+
+Derivations for string "aaaaab" are:
+S->AB->aB->aAB->aaB->aaAB->aaaB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00243
+S->AB->AAB->aAB->aaB->aaAB->aaaB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.0009719999999999999
+S->AB->aB->aAB->aAAB->aaAB->aaaB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.0009719999999999999
+S->AB->aB->aAB->aaB->aaAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.0009719999999999998
+S->AB->aB->aAB->aaB->aaAB->aaaB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.0009719999999999998
+S->AB->aB->aAB->aAAB->aAAAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.0003888
+S->AB->aB->aAB->aaB->aaAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.0003888
+S->AB->aB->aAB->aAAB->aaAB->aaaB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00038879999999999996
+S->AB->AAB->AAAB->aAAB->aaAB->aaaB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00038879999999999996
+S->AB->AAB->aAB->aaB->aaAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.0003887999999999999
+S->AB->AAB->aAB->aaB->aaAB->aaaB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.0003887999999999999
+S->AB->AAB->aAB->aAAB->aaAB->aaaB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.0003887999999999999
+S->AB->aB->aAB->aAAB->aaAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00038879999999999986
+S->AB->aB->aAB->aaB->aaAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00038879999999999986
+S->AB->AAB->aAB->aaB->aaAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015552
+S->AB->AAB->AAAB->AAAAB->aAAAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00015552
+S->AB->AAB->aAB->aAAB->aAAAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00015552
+S->AB->aB->aAB->aAAB->aAAAB->aAAAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015552
+S->AB->aB->aAB->aAAB->aaAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015552
+S->AB->AAB->AAAB->aAAB->aaAB->aaaB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015552
+S->AB->aB->aAB->aAAB->aaAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999997
+S->AB->AAB->AAAB->aAAB->aAAAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999997
+S->AB->AAB->AAAB->aAAB->aaAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999997
+S->AB->aB->aAB->aAAB->aAAAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999997
+S->AB->AAB->aAB->aAAB->aaAB->aaAAB->aaaAB->aaaaB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999997
+S->AB->aB->aAB->aAAB->aAAAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999997
+S->AB->AAB->aAB->aaB->aaAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999995
+S->AB->AAB->aAB->aAAB->aaAB->aaaB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 0.00015551999999999995
+S->AB->AAB->aAB->aAAB->aAAAB->aAAAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.2208e-05
+S->AB->AAB->AAAB->aAAB->aaAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.2208e-05
+S->AB->AAB->AAAB->AAAAB->aAAAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.2208e-05
+S->AB->AAB->AAAB->AAAAB->AAAAAB->aAAAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.2208e-05
+S->AB->AAB->aAB->aAAB->aaAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.2208e-05
+S->AB->AAB->AAAB->aAAB->aAAAB->aAAAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.2208e-05
+S->AB->AAB->AAAB->aAAB->aAAAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->AAAB->aAAB->aaAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->AAAB->aAAB->aAAAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->aAB->aAAB->aAAAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->aAB->aAAB->aAAAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->AAAB->AAAAB->aAAAB->aAAAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->AAAB->AAAAB->aAAAB->aaAAB->aaAAAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+S->AB->AAB->aAB->aAAB->aaAB->aaAAB->aaaAB->aaaAAB->aaaaAB->aaaaaB->aaaaab 6.220799999999998e-05
+
+

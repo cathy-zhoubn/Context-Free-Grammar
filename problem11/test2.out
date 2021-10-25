@@ -1,0 +1,31 @@
+Derivations for string "a" are:
+Not in the language
+
+Derivations for string "b" are:
+Not in the language
+
+Derivations for string "c" are:
+Not in the language
+
+Derivations for string "aa" are:
+S->AA->aA->aa 0.192
+
+Derivations for string "bb" are:
+S->BB->bB->bb 0.24499999999999997
+
+Derivations for string "abb" are:
+S->AB->aB->aBB->abB->abb 0.023520000000000003
+
+Derivations for string "aab" are:
+S->AB->AAB->aAB->aaB->aab 0.017920000000000005
+
+Derivations for string "aba" are:
+Not in the language
+
+Derivations for string "aabb" are:
+S->AB->AAB->aAB->aaB->aaBB->aabB->aabb 0.003763200000000001
+
+Derivations for string "bbaa" are:
+Not in the language
+
+
